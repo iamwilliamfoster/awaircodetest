@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<pre>
+ █████╗ ██╗    ██╗ █████╗ ██╗██████╗
+██╔══██╗██║    ██║██╔══██╗██║██╔══██╗
+███████║██║ █╗ ██║███████║██║██████╔╝
+██╔══██║██║███╗██║██╔══██║██║██╔══██╗
+██║  ██║╚███╔███╔╝██║  ██║██║██║  ██║
+╚═╝  ╚═╝ ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝
+
+
+</pre>
+<body>
+
+{{ x }}
+<br><br><br>
+<form action="/register" method="POST">
+    <label for="user_id">id:</label><br>
+    <input id="user_id" type="text" name="id" value=""><br>
+
+    <label>password:</label><br>
+    <input type="text" name="password" value=""><br><br>
+
+    <input type="submit" name="send" value="create user"><br><br>
+    <input type="submit" name="send" value="delete user">
+
+</form>
+
+<br><br><br><br><br><br><br><br><br>
+<form action = "/print_user" method="GET">
+    <input type="submit" value="list users">
+</form>
+</body>
+</html>
